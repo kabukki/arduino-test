@@ -8,6 +8,8 @@ This project uses the [arduino-hal](https://github.com/Rahix/avr-hal) crate. Bec
 
 ## Pipeline
 
+The pipeline is simplified thanks to the [ravedude](https://crates.io/crates/ravedude) runner and everything works in one command with `cargo run` !
+
 ### Build the program
 
 ```sh

@@ -3,3 +3,6 @@ target = "avr-atmega328p.json"
 
 [unstable] # -Z build-std=core
 build-std = ["core"]
+
+[target.'cfg(target_arch = "avr")']
+runner = "ravedude uno --baudrate 115200"
